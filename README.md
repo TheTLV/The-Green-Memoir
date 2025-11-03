@@ -3,7 +3,9 @@ Một game mô phỏng nông trại mang đậm bản sắc Việt Nam, được
 
 ---
 ## 🎮 Gameplay
+
 **Điều khiển:**
+
 - Di chuyển: Dùng phím WASD hoặc phím mũi tên để đi lại trong làng và nông trại.
 
 - Tương tác: Dùng chuột để click vào NPC, cây trồng, bảng thông báo hoặc các vật phẩm.
@@ -17,6 +19,7 @@ Một game mô phỏng nông trại mang đậm bản sắc Việt Nam, được
 - Cuộn chuột: Chuyển đổi công cụ trong thanh công cụ.
 
 **Mục tiêu:**
+
 Trồng trọt, chăn nuôi, thu thập tài nguyên để phát triển nông trại.
 
 Hoàn thành nhiệm vụ từ ông nội và dân làng để mở khóa cốt truyện.
@@ -24,6 +27,7 @@ Hoàn thành nhiệm vụ từ ông nội và dân làng để mở khóa cốt 
 Xây dựng mối quan hệ với NPC và khám phá bí mật về gia sản.
 
 **Giao diện:**
+
 - ENERGY: Hiển thị mức năng lượng còn lại trong ngày.
 
 - MONEY: Số tiền hiện có để mua sắm và nâng cấp.
@@ -43,6 +47,7 @@ Xây dựng mối quan hệ với NPC và khám phá bí mật về gia sản.
 
 --
 ## 📦 Cài đặt & Chạy game
+
 1. Clone repo:
    ```bash
    git clone https://github.com/TheTLV/The-Green-Memoir.git
@@ -53,8 +58,9 @@ Xây dựng mối quan hệ với NPC và khám phá bí mật về gia sản.
 4. Chạy file .exe trong thư mục build.
 
 ## 📌 Ghi chú phát triển
-Game đang trong giai đoạn thiết kế tiền alpha.
 
-Các tính năng như hệ thống thời tiết, sự kiện lễ hội, và kết thúc đa dạng sẽ được cập nhật ở các phiên bản sau.
+- Game đang trong giai đoạn thiết kế tiền alpha.
 
-Mọi đóng góp về gameplay, nghệ thuật, âm thanh đều được hoan nghênh!
+- Các tính năng như hệ thống thời tiết, sự kiện lễ hội, và kết thúc đa dạng sẽ được cập nhật ở các phiên bản sau.
+
+- Mọi đóng góp về gameplay, nghệ thuật, âm thanh đều được hoan nghênh!
