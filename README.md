@@ -35,7 +35,7 @@ Xây dựng mối quan hệ với NPC và khám phá bí mật về gia sản.
 ---
 ## 🛠️ Công nghệ sử dụng
 
-- **Unity 2025 (6.x)	Hiệu suất cao, hỗ trợ đa nền tảng, tối ưu hóa cho mobile và PC
+- **Unity 2025 (6.2)	Hiệu suất cao, hỗ trợ đa nền tảng, tối ưu hóa cho mobile và PC
 - **C# Scripts	Điều khiển nhân vật, hệ thống nhiệm vụ, tương tác và phát triển nông trại
 - **2D Pixel Art & Canvas	Thiết kế đồ họa hoài niệm, giao diện người dùng thân thiện
 - **Unity Input System	Hỗ trợ điều khiển bằng bàn phím, chuột và cảm ứng
