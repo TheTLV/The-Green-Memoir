@@ -1,52 +1,61 @@
-🌾 Miền Ký Ức Xanh (The Green Memoir) Unity 2025 (Unity 6.2)
-Thể loại: Sandbox / Simulation (Mô phỏng Nông trại) Nền tảng: PC, Mobile Đối tượng người chơi: Casual Gamer (Người chơi phổ thông)
+🌿 Miền Ký Ức Xanh – The Green Memoir
+Một game mô phỏng nông trại mang đậm bản sắc Việt Nam, được phát triển bằng Unity 2025 (Unity 6.2) – phiên bản mới nhất với hiệu suất cao, hỗ trợ đa nền tảng và tích hợp hệ thống tương tác mượt mà. Người chơi vào vai một học sinh thành phố trở về quê, thừa kế mảnh đất của ông nội và từng bước khôi phục nông trại, hòa nhập với cộng đồng làng quê.
 
-🎮 Giới thiệu
-Miền Ký Ức Xanh là một tựa game mô phỏng cuộc sống yên bình tại làng quê Việt Nam. Người chơi vào vai Nguyễn Văn Nam, một học sinh thành phố trở về quê để thừa kế mảnh đất nông trại của ông nội đang bệnh. Từ một khu đất nhỏ bé và xuống cấp, người chơi sẽ từng bước khôi phục gia sản, hòa nhập với cộng đồng nông thôn và khám phá những câu chuyện bí ẩn về gia đình.
+🎮 Gameplay
+⌨️ Điều khiển
+Di chuyển: Dùng phím WASD hoặc phím mũi tên để đi lại trong làng và nông trại.
 
-Cảm hứng: Stardew Valley, Harvest Moon, Animal Crossing.
+Tương tác: Dùng chuột để click vào NPC, cây trồng, bảng thông báo hoặc các vật phẩm.
 
-🏞️ Bối cảnh & Cốt truyện
-Thế giới
-Làng quê Việt Nam yên bình, giàu văn hóa và thiên nhiên tươi đẹp.
+Thao tác nhanh:
 
-Không gian gồm: nông trại gia đình, làng xóm lân cận, khu rừng và đồi núi.
+Click trái: Thu hoạch, nói chuyện, mở bảng thông tin.
 
-Kiến trúc và sản vật mang đậm bản sắc Việt: lũy tre, đồng lúa, ao sen, nhà mái ngói.
+Click phải: Sử dụng công cụ (cuốc, xẻng, bình tưới).
 
-Nhân vật chính
-Tên: Nguyễn Văn Nam
+Cuộn chuột: Chuyển đổi công cụ trong thanh công cụ.
 
-Tính cách: Tươi vui, trong sáng, nhiệt huyết nhưng thiếu kinh nghiệm làm nông.
+🎯 Mục tiêu
+Trồng trọt, chăn nuôi, thu thập tài nguyên để phát triển nông trại.
 
-Mục tiêu: Phát triển nông trại, chăm sóc ông nội, khám phá bí mật gia sản.
+Hoàn thành nhiệm vụ từ ông nội và dân làng để mở khóa cốt truyện.
 
-Cốt truyện
-Khởi đầu: Nam về quê thăm ông nội và nhận quyền quản lý nông trại.
+Xây dựng mối quan hệ với NPC và khám phá bí mật về gia sản.
 
-Diễn biến: Học cách làm nông, hoàn thành nhiệm vụ, mở rộng nông trại.
+🖥️ Giao diện người chơi
+ENERGY: Hiển thị mức năng lượng còn lại trong ngày.
 
-Kết thúc: Nhiều kết thúc tùy lựa chọn người chơi — từ thành công rực rỡ đến khám phá bí mật gia đình.
-🎮 Điều khiển & Tương tác
-⌨️ Điều khiển bằng bàn phím
-Người chơi có thể di chuyển nhân vật chính Nguyễn Văn Nam trong thế giới game bằng các phím:
+MONEY: Số tiền hiện có để mua sắm và nâng cấp.
 
-W – Di chuyển lên
+TASKS: Danh sách nhiệm vụ đang thực hiện.
 
-A – Di chuyển sang trái
+MAP: Bản đồ làng quê và các khu vực mở khóa.
 
-S – Di chuyển xuống
+🛠️ Công nghệ sử dụng
+Thành phần	Mô tả
+Unity 2025 (6.x)	Hiệu suất cao, hỗ trợ đa nền tảng, tối ưu hóa cho mobile và PC
+C# Scripts	Điều khiển nhân vật, hệ thống nhiệm vụ, tương tác và phát triển nông trại
+2D Pixel Art & Canvas	Thiết kế đồ họa hoài niệm, giao diện người dùng thân thiện
+Unity Input System	Hỗ trợ điều khiển bằng bàn phím, chuột và cảm ứng
+Git	Quản lý phiên bản, hỗ trợ cộng tác nhóm
+📦 Cài đặt & Chạy game
+🔧 Cài đặt
+Clone repository về máy:
 
-D – Di chuyển sang phải
+bash
+git clone https://github.com/TheTLV/The-Green-Memoir.git
+Mở project bằng Unity 2025 (Unity 6.2) qua Unity Hub.
 
-Phím di chuyển được thiết kế mượt mà, hỗ trợ cả thao tác đi bộ và chạy nhanh (giữ Shift để chạy).
+🚀 Build & Chạy
+Vào File > Build Settings, chọn nền tảng Windows hoặc Android/iOS.
 
-🖱️ Tương tác bằng chuột
-Click trái: Tương tác với NPC, thu hoạch cây trồng, mở bảng thông báo, chọn vật phẩm.
+Nhấn Build để xuất bản game.
 
-Click phải: Sử dụng công cụ (cuốc, xẻng, bình tưới), đặt vật phẩm xuống đất.
+Chạy file .exe (PC) hoặc cài file .apk (mobile) để bắt đầu chơi.
 
-Cuộn chuột: Chuyển đổi giữa các công cụ trong thanh công cụ nhanh.
+📌 Ghi chú phát triển
+Game đang trong giai đoạn thiết kế tiền alpha.
 
-Giữ chuột trái: Kéo thả vật phẩm trong kho hoặc giao diện chế tạo.
+Các tính năng như hệ thống thời tiết, sự kiện lễ hội, và kết thúc đa dạng sẽ được cập nhật ở các phiên bản sau.
 
+Mọi đóng góp về gameplay, nghệ thuật, âm thanh đều được hoan nghênh!
