@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: fca3d7cf3263ae04a97affdb266d39f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2914633318401418153
+    second: Park - Woman_0
+  - first:
+      213: -1760977469728356540
+    second: Park - Woman_1
+  - first:
+      213: 997345474432504798
+    second: Park - Woman_2
+  - first:
+      213: -7664775476352252266
+    second: Park - Woman_3
+  - first:
+      213: 6389159917346920450
+    second: Park - Woman_4
+  - first:
+      213: -5949092361683260937
+    second: Park - Woman_5
+  - first:
+      213: 9032812188480660402
+    second: Park - Woman_6
+  - first:
+      213: -2307461802650683199
+    second: Park - Woman_7
+  - first:
+      213: -7009789995473507228
+    second: Park - Woman_8
+  - first:
+      213: -1039574467265566825
+    second: Park - Woman_9
+  - first:
+      213: 3685284852247737542
+    second: Park - Woman_10
+  - first:
+      213: -5685235613248275055
+    second: Park - Woman_11
+  - first:
+      213: 170435074763220825
+    second: Park - Woman_12
+  - first:
+      213: -2033238051990025110
+    second: Park - Woman_13
+  - first:
+      213: -5685873945368462153
+    second: Park - Woman_14
+  - first:
+      213: 7458255185980734749
+    second: Park - Woman_15
+  - first:
+      213: 7334393736780460506
+    second: Park - Woman_16
+  - first:
+      213: -2509579761826954045
+    second: Park - Woman_17
+  - first:
+      213: 6483902315005653988
+    second: Park - Woman_18
+  - first:
+      213: 4612699433806276363
+    second: Park - Woman_19
+  - first:
+      213: 4146078950850130232
+    second: Park - Woman_20
+  - first:
+      213: 5354450171182334380
+    second: Park - Woman_21
+  - first:
+      213: -5576468258846689032
+    second: Park - Woman_22
+  - first:
+      213: -5401949988373826358
+    second: Park - Woman_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Park - Woman_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 671
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3a5d98f8bd27820800000000000000
+      internalID: 2914633318401418153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 671
+        width: 31
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44700634250cf87e0800000000000000
+      internalID: -1760977469728356540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 671
+        width: 31
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed394e1cc6847dd00800000000000000
+      internalID: 997345474432504798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 671
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69606e0605f31a590800000000000000
+      internalID: -7664775476352252266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 671
+        width: 33
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20890a6f71bdaa850800000000000000
+      internalID: 6389159917346920450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 671
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f921e54404907da0800000000000000
+      internalID: -5949092361683260937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 575
+        width: 40
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b36539d3defa5d70800000000000000
+      internalID: 9032812188480660402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_7
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 575
+        width: 40
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8393847bf3affd0800000000000000
+      internalID: -2307461802650683199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_8
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 575
+        width: 40
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ce6b9732938be90800000000000000
+      internalID: -7009789995473507228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_9
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 575
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797e119a780b291f0800000000000000
+      internalID: -1039574467265566825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_10
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 575
+        width: 29
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4ba523c03c42330800000000000000
+      internalID: 3685284852247737542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_11
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 575
+        width: 29
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dbfe7d45cf911b0800000000000000
+      internalID: -5685235613248275055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 479
+        width: 40
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95767882cc18d5200800000000000000
+      internalID: 170435074763220825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_13
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 479
+        width: 40
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cc357a3cc78c3e0800000000000000
+      internalID: -2033238051990025110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_14
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 479
+        width: 40
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcf9a095c7b711b0800000000000000
+      internalID: -5685873945368462153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 479
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1db89c739b018760800000000000000
+      internalID: 7458255185980734749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_16
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 479
+        width: 29
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad136ab8e3009c560800000000000000
+      internalID: 7334393736780460506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 479
+        width: 29
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c48bc0c08e2c2dd0800000000000000
+      internalID: -2509579761826954045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 383
+        width: 31
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3be346dc27bf950800000000000000
+      internalID: 6483902315005653988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_19
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 383
+        width: 29
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b072ba722b9930040800000000000000
+      internalID: 4612699433806276363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_20
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 383
+        width: 29
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8317524c6d4d98930800000000000000
+      internalID: 4146078950850130232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 383
+        width: 31
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca14ad4cf04de4a40800000000000000
+      internalID: 5354450171182334380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 383
+        width: 31
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8b33af9a76c92b0800000000000000
+      internalID: -5576468258846689032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park - Woman_23
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 383
+        width: 31
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac47d883b1b6805b0800000000000000
+      internalID: -5401949988373826358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Park - Woman_0: 2914633318401418153
+      Park - Woman_1: -1760977469728356540
+      Park - Woman_10: 3685284852247737542
+      Park - Woman_11: -5685235613248275055
+      Park - Woman_12: 170435074763220825
+      Park - Woman_13: -2033238051990025110
+      Park - Woman_14: -5685873945368462153
+      Park - Woman_15: 7458255185980734749
+      Park - Woman_16: 7334393736780460506
+      Park - Woman_17: -2509579761826954045
+      Park - Woman_18: 6483902315005653988
+      Park - Woman_19: 4612699433806276363
+      Park - Woman_2: 997345474432504798
+      Park - Woman_20: 4146078950850130232
+      Park - Woman_21: 5354450171182334380
+      Park - Woman_22: -5576468258846689032
+      Park - Woman_23: -5401949988373826358
+      Park - Woman_3: -7664775476352252266
+      Park - Woman_4: 6389159917346920450
+      Park - Woman_5: -5949092361683260937
+      Park - Woman_6: 9032812188480660402
+      Park - Woman_7: -2307461802650683199
+      Park - Woman_8: -7009789995473507228
+      Park - Woman_9: -1039574467265566825
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

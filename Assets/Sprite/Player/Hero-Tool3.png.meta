@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 27cbab273e9995e43b21fb20c38e137a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1512766663742168994
+    second: Hero-Tool3_0
+  - first:
+      213: 6186648012061608328
+    second: Hero-Tool3_1
+  - first:
+      213: -6521802086280219049
+    second: Hero-Tool3_2
+  - first:
+      213: -3985213125798631588
+    second: Hero-Tool3_3
+  - first:
+      213: 7117656021817327464
+    second: Hero-Tool3_4
+  - first:
+      213: -3243125724821165195
+    second: Hero-Tool3_5
+  - first:
+      213: -860277824979239668
+    second: Hero-Tool3_6
+  - first:
+      213: -4711464697071415718
+    second: Hero-Tool3_7
+  - first:
+      213: -5687607040730468444
+    second: Hero-Tool3_8
+  - first:
+      213: 7865161936205444991
+    second: Hero-Tool3_9
+  - first:
+      213: 9185023052663517059
+    second: Hero-Tool3_10
+  - first:
+      213: -4624875097310548816
+    second: Hero-Tool3_11
+  - first:
+      213: -2007178144569399523
+    second: Hero-Tool3_12
+  - first:
+      213: 3355316891388494220
+    second: Hero-Tool3_13
+  - first:
+      213: -3869439289866950763
+    second: Hero-Tool3_14
+  - first:
+      213: 4985245429461623996
+    second: Hero-Tool3_15
+  - first:
+      213: -3275017351682892941
+    second: Hero-Tool3_16
+  - first:
+      213: 2330490401391439098
+    second: Hero-Tool3_17
+  - first:
+      213: -5773833997762608288
+    second: Hero-Tool3_18
+  - first:
+      213: -1068972179306311848
+    second: Hero-Tool3_19
+  - first:
+      213: -5157078110350354119
+    second: Hero-Tool3_20
+  - first:
+      213: 8293526919675076453
+    second: Hero-Tool3_21
+  - first:
+      213: -1186636431493814687
+    second: Hero-Tool3_22
+  - first:
+      213: 6322688165059795952
+    second: Hero-Tool3_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hero-Tool3_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1007
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50689bfbb2910be0800000000000000
+      internalID: -1512766663742168994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1007
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8890f45b6936bd550800000000000000
+      internalID: 6186648012061608328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_2
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1007
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756bdd77e87ed75a0800000000000000
+      internalID: -6521802086280219049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 863
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c576c82d6cda1b8c0800000000000000
+      internalID: -3985213125798631588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 863
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f77ddd07ef6c260800000000000000
+      internalID: 7117656021817327464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_5
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 863
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b6a1a065a1ef2d0800000000000000
+      internalID: -3243125724821165195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 719
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d77f940edaf04f0800000000000000
+      internalID: -860277824979239668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_7
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 719
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ec34702d38d9eb0800000000000000
+      internalID: -4711464697071415718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_8
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 719
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afef3bd78f8111b0800000000000000
+      internalID: -5687607040730468444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 575
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77f27c0c1ba62d60800000000000000
+      internalID: 7865161936205444991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_10
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 575
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f68c35dc1c77f70800000000000000
+      internalID: 9185023052663517059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_11
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 575
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc21464a9421dfb0800000000000000
+      internalID: -4624875097310548816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 431
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17630cac121524e0800000000000000
+      internalID: -2007178144569399523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_13
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 431
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81441c7fea709e20800000000000000
+      internalID: 3355316891388494220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_14
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 431
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5976a8f877dfc4ac0800000000000000
+      internalID: -3869439289866950763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 287
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4233d1e462f2540800000000000000
+      internalID: 4985245429461623996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 287
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b53b7021dcc82d0800000000000000
+      internalID: -3275017351682892941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_17
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 287
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afce46f2ca0975020800000000000000
+      internalID: 2330490401391439098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 143
+        width: 37
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0634943f1983fdfa0800000000000000
+      internalID: -5773833997762608288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_19
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 143
+        width: 37
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f0ca1777f3a21f0800000000000000
+      internalID: -1068972179306311848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_20
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 143
+        width: 37
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939df9138c06e68b0800000000000000
+      internalID: -5157078110350354119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_21
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f5f5edac6881370800000000000000
+      internalID: 8293526919675076453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_22
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166264fd378388fe0800000000000000
+      internalID: -1186636431493814687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Tool3_23
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 0
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb94f71363beb750800000000000000
+      internalID: 6322688165059795952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hero-Tool3_0: -1512766663742168994
+      Hero-Tool3_1: 6186648012061608328
+      Hero-Tool3_10: 9185023052663517059
+      Hero-Tool3_11: -4624875097310548816
+      Hero-Tool3_12: -2007178144569399523
+      Hero-Tool3_13: 3355316891388494220
+      Hero-Tool3_14: -3869439289866950763
+      Hero-Tool3_15: 4985245429461623996
+      Hero-Tool3_16: -3275017351682892941
+      Hero-Tool3_17: 2330490401391439098
+      Hero-Tool3_18: -5773833997762608288
+      Hero-Tool3_19: -1068972179306311848
+      Hero-Tool3_2: -6521802086280219049
+      Hero-Tool3_20: -5157078110350354119
+      Hero-Tool3_21: 8293526919675076453
+      Hero-Tool3_22: -1186636431493814687
+      Hero-Tool3_23: 6322688165059795952
+      Hero-Tool3_3: -3985213125798631588
+      Hero-Tool3_4: 7117656021817327464
+      Hero-Tool3_5: -3243125724821165195
+      Hero-Tool3_6: -860277824979239668
+      Hero-Tool3_7: -4711464697071415718
+      Hero-Tool3_8: -5687607040730468444
+      Hero-Tool3_9: 7865161936205444991
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
