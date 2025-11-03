@@ -8,7 +8,7 @@ Một game mô phỏng nông trại mang đậm bản sắc Việt Nam, được
 
 - Tương tác: Dùng chuột để click vào NPC, cây trồng, bảng thông báo hoặc các vật phẩm.
 
-Thao tác nhanh:
+## Thao tác nhanh:
 
 - Click trái: Thu hoạch, nói chuyện, mở bảng thông tin.
 
@@ -34,7 +34,7 @@ Xây dựng mối quan hệ với NPC và khám phá bí mật về gia sản.
 
 ---
 ## 🛠️ Công nghệ sử dụng
-Thành phần	Mô tả
+
 - **Unity 2025 (6.x)	Hiệu suất cao, hỗ trợ đa nền tảng, tối ưu hóa cho mobile và PC
 - **C# Scripts	Điều khiển nhân vật, hệ thống nhiệm vụ, tương tác và phát triển nông trại
 - **2D Pixel Art & Canvas	Thiết kế đồ họa hoài niệm, giao diện người dùng thân thiện
@@ -52,7 +52,7 @@ Thành phần	Mô tả
 
 4. Chạy file .exe trong thư mục build.
 
-📌 Ghi chú phát triển
+## 📌 Ghi chú phát triển
 Game đang trong giai đoạn thiết kế tiền alpha.
 
 Các tính năng như hệ thống thời tiết, sự kiện lễ hội, và kết thúc đa dạng sẽ được cập nhật ở các phiên bản sau.
