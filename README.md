@@ -40,6 +40,7 @@ Thành phần	Mô tả
 **2D Pixel Art & Canvas	Thiết kế đồ họa hoài niệm, giao diện người dùng thân thiện
 **Unity Input System	Hỗ trợ điều khiển bằng bàn phím, chuột và cảm ứng
 **Git	Quản lý phiên bản, hỗ trợ cộng tác nhóm
+
 --
 ## 📦 Cài đặt & Chạy game
 1. Clone repo:
