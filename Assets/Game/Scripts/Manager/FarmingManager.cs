@@ -1,29 +1,28 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using System.Collections.Generic;
+using System.Linq;
+using System;
 
 public class FarmingManager : MonoBehaviour
 {
-    // Static reference for easy access (Singleton pattern)
     public static FarmingManager Instance;
 
     [Header("Tilemap & Tile References")]
     [SerializeField] private Tilemap groundTilemap;
     [SerializeField] private Tilemap cropTilemap;
-    [SerializeField] private TileBase plowedDirtTile; // Dirt Tile Asset after plowing
-    [SerializeField] private TileBase normalDirtTile; // The basic dirt tile (for harvest reset)
-    [SerializeField] private TileBase wateredDirtTile; // Tile for wet dirt (visual feedback)
+    [SerializeField] private TileBase plowedDirtTile;
+    [SerializeField] private TileBase normalDirtTile;
+    [SerializeField] private TileBase wateredDirtTile;
 
-    // Dictionary to track crop states: GridPosition -> CropState Data
     private Dictionary<Vector3Int, CropState> cropStates = new Dictionary<Vector3Int, CropState>();
 
-    // --- Inner Class: CropState (Data structure to hold a crop's current condition) ---
     public class CropState
     {
         public SeedData seedData;
-        public int currentGrowthStage = 0; // 0 = Seed, 1..N = Stage
-        public int daysWatered = 0; // Days the crop has been successfully watered
-        public int daysSinceWatered = 0; // Used for wilting logic
+        public int currentGrowthStage = 0;
+        public int daysWatered = 0;
+        public int daysSinceWatered = 0;
         public bool isWateredToday = false;
         public bool isWilted = false;
     }
@@ -34,6 +33,19 @@ public class FarmingManager : MonoBehaviour
             Instance = this;
         else
             Destroy(gameObject);
+
+        if (TimeManager.Instance != null)
+        {
+            TimeManager.Instance.OnDayEnd += EndOfDay;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (TimeManager.Instance != null)
+        {
+            TimeManager.Instance.OnDayEnd -= EndOfDay;
+        }
     }
 
     // --- CORE TILE INTERACTION METHODS ---
@@ -42,19 +54,17 @@ public class FarmingManager : MonoBehaviour
     {
         TileBase tile = groundTilemap.GetTile(gridPos);
 
-        // Assumption: TileMapReadController confirms tile is plowable
-        if (tile != null && tile != plowedDirtTile)
+        if (tile != plowedDirtTile && tile != wateredDirtTile)
         {
             groundTilemap.SetTile(gridPos, plowedDirtTile);
-            Debug.Log($"Plowed tile at {gridPos}");
             return true;
         }
         return false;
     }
 
+
     public bool WaterTile(Vector3Int gridPos)
     {
-        // 1. Check if there is a crop planted at this position
         if (cropStates.ContainsKey(gridPos))
         {
             CropState state = cropStates[gridPos];
@@ -62,17 +72,18 @@ public class FarmingManager : MonoBehaviour
             if (!state.isWateredToday)
             {
                 state.isWateredToday = true;
-                state.daysSinceWatered = 0; // Reset days since last water
+                state.daysSinceWatered = 0;
 
-                // Set the visual tile to wet dirt
+                if (state.currentGrowthStage < state.seedData.wetGrowthTiles.Length)
+                {
+                    cropTilemap.SetTile(gridPos, state.seedData.wetGrowthTiles[state.currentGrowthStage]);
+                }
+
                 groundTilemap.SetTile(gridPos, wateredDirtTile);
-
-                Debug.Log($"Watered crop at {gridPos}");
                 return true;
             }
         }
-        // If there's no crop, still allow watering the plowed dirt for visual feedback
-        else if (IsGroundPlowed(gridPos))
+        else if (IsGroundPlowed(gridPos) && groundTilemap.GetTile(gridPos) != wateredDirtTile)
         {
             groundTilemap.SetTile(gridPos, wateredDirtTile);
             return true;
@@ -80,65 +91,56 @@ public class FarmingManager : MonoBehaviour
         return false;
     }
 
-    /// <summary>
-    /// Plants a seed on the given grid position. (Called after selecting seed from UI)
-    /// </summary>
     public void SeedTile(Vector3Int gridPos, SeedData seed)
     {
-        // Requirement: Ground must be plowed and empty
         if (IsGroundPlowed(gridPos) && !IsCropPlanted(gridPos))
         {
-            // 1. Add new Crop State
             CropState newState = new CropState { seedData = seed };
             cropStates.Add(gridPos, newState);
 
-            // 2. Draw the initial seed Tile onto CropTilemap
-            // We use growthTiles[0] which should be the seed Tile
-            cropTilemap.SetTile(gridPos, seed.growthTiles[0]);
-
-            // 3. TODO: Decrease the amount of seed in InventoryManager
-            Debug.Log($"Planted {seed.cropName} at {gridPos}");
+            if (seed.dryGrowthTiles.Length > 0)
+            {
+                cropTilemap.SetTile(gridPos, seed.dryGrowthTiles[0]);
+            }
         }
     }
 
-    /// <summary>
-    /// Performs the Harvest action on the target grid position. (Used by the Sickle)
-    /// </summary>
     public bool HarvestTile(Vector3Int gridPos)
     {
         if (cropStates.ContainsKey(gridPos))
         {
             CropState state = cropStates[gridPos];
-            // Check if the crop is fully grown
-            if (state.currentGrowthStage == state.seedData.daysToGrow && !state.isWilted)
-            {
-                // 1. TODO: Add harvested item to InventoryManager
-                // InventoryManager.Instance.AddItem(state.seedData.harvestItem, state.seedData.harvestYield);
-                Debug.Log($"Harvested {state.seedData.cropName}.");
 
-                // 2. Clear the crop state and Tile
-                cropStates.Remove(gridPos);
-                cropTilemap.SetTile(gridPos, null);
-                groundTilemap.SetTile(gridPos, normalDirtTile); // Reset back to normal dirt (or keep plowedDirtTile)
+            if (state.isWilted)
+            {
+                ClearCrop(gridPos);
+                Debug.Log("Removed wilted crop (no yield).");
                 return true;
             }
-            else if (state.isWilted)
+            else if (state.currentGrowthStage == state.seedData.daysToGrow)
             {
-                // Clear the wilted crop (no item yield)
-                cropStates.Remove(gridPos);
-                cropTilemap.SetTile(gridPos, null);
-                groundTilemap.SetTile(gridPos, normalDirtTile);
-                Debug.Log("Removed wilted crop.");
+                InventoryManager.Instance.AddItem(state.seedData.harvestItem, state.seedData.harvestYield);
+                ClearCrop(gridPos);
+                Debug.Log($"Harvested {state.seedData.cropName}.");
                 return true;
             }
         }
         return false;
     }
 
-    // --- UTILITY CHECKS ---
-    public bool IsCropPlanted(Vector3Int gridPos)
+    public void RefillWater(Vector3Int gridPos, ToolData waterCanData)
     {
-        return cropStates.ContainsKey(gridPos);
+        ToolStateManager.Instance.RefillTool(waterCanData);
+        Debug.Log($"Refilled {waterCanData.toolName} to max capacity!");
+    }
+
+    // --- UTILITY & CLEANUP ---
+
+    private void ClearCrop(Vector3Int gridPos)
+    {
+        cropStates.Remove(gridPos);
+        cropTilemap.SetTile(gridPos, null);
+        groundTilemap.SetTile(gridPos, normalDirtTile);
     }
 
     public bool IsGroundPlowed(Vector3Int gridPos)
@@ -146,49 +148,55 @@ public class FarmingManager : MonoBehaviour
         return groundTilemap.GetTile(gridPos) == plowedDirtTile || groundTilemap.GetTile(gridPos) == wateredDirtTile;
     }
 
+    public bool IsCropPlanted(Vector3Int gridPos)
+    {
+        return cropStates.ContainsKey(gridPos);
+    }
+
     // --- TIME MANAGEMENT & GROWTH LOGIC ---
 
-    /// <summary>
-    /// This is called once per game day (e.g., by a TimeManager script).
-    /// Handles growth and wilting logic.
-    /// </summary>
     public void EndOfDay()
     {
-        List<Vector3Int> wiltedCrops = new List<Vector3Int>();
-
-        foreach (var pair in cropStates)
+        foreach (var pos in cropStates.Keys.ToList())
         {
-            Vector3Int pos = pair.Key;
-            CropState state = pair.Value;
+            CropState state = cropStates[pos];
 
             // 1. Check for Wilting/Dying
             if (!state.isWateredToday)
             {
                 state.daysSinceWatered++;
-                // If not watered for 2 days, it wilts
-                if (state.daysSinceWatered >= 2 && !state.isWilted)
+
+                if (state.daysSinceWatered >= state.seedData.daysToWilt && !state.isWilted)
                 {
                     state.isWilted = true;
-                    cropTilemap.SetTile(pos, state.seedData.witheredTile);
-                    Debug.Log($"{state.seedData.cropName} at {pos} wilted!");
+                    if (state.seedData.witheredTile != null)
+                    {
+                        cropTilemap.SetTile(pos, state.seedData.witheredTile);
+                    }
                 }
             }
 
             // 2. Handle Growth (Only if watered and not wilted)
             if (state.isWateredToday && !state.isWilted)
             {
-                // Increase growth stage if not fully mature
+                state.daysWatered++;
+
                 if (state.currentGrowthStage < state.seedData.daysToGrow)
                 {
                     state.currentGrowthStage++;
-                    // Update Tile to the next growth stage
-                    cropTilemap.SetTile(pos, state.seedData.growthTiles[state.currentGrowthStage]);
-                    Debug.Log($"{state.seedData.cropName} grew to stage {state.currentGrowthStage}");
                 }
             }
 
             // 3. Reset visual dirt tile and watering state for the new day
-            // Change wet dirt back to plowed dirt
+            if (!state.isWilted)
+            {
+                int stage = state.currentGrowthStage;
+                if (stage < state.seedData.dryGrowthTiles.Length)
+                {
+                    cropTilemap.SetTile(pos, state.seedData.dryGrowthTiles[stage]);
+                }
+            }
+
             if (groundTilemap.GetTile(pos) == wateredDirtTile)
             {
                 groundTilemap.SetTile(pos, plowedDirtTile);

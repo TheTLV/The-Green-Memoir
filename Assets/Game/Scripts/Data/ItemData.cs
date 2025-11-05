@@ -1,14 +1,5 @@
 using UnityEngine;
 
-public enum ToolActionType
-{
-    None,
-    Plow,
-    Water,
-    Seed,
-    Harvest,
-    Interact
-}
 
 [CreateAssetMenu(fileName = "New Item Data", menuName = "Inventory/Item Data")]
 public class ItemData : ScriptableObject
@@ -23,16 +14,15 @@ public class ItemData : ScriptableObject
     public bool isStackable = true;
     public int maxStackSize = 99;
 
-    [Header("Tool-Seed")]
-    public bool isTool = false;
+    // public bool isTool;
+    // public ToolActionType actionType;
+    // ------------------------------------
+
+    [Header("Seed Properties")]
     public bool isSeed = false;
-    public ToolActionType actionType = ToolActionType.None;
-
-    public SeedData plantedCropData;
-
+    public SeedData plantedCropData; 
 
     [Header("Context Menu Restrictions")]
-    public bool isMissionItem = false; // Cannot be dropped/sold
-    public bool isConsumable = false;  // Can be 'Used' (e.g., food, potion)
-    // --------------------------------------------------------
+    public bool isMissionItem = false;
+    public bool isConsumable = false;
 }

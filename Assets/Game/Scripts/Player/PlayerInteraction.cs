@@ -2,50 +2,63 @@
 
 public class PlayerInteraction : MonoBehaviour
 {
-    public TileMapReadController tileReadController;
-    public FarmingManager farmingManager; 
+    [Header("Manager References")]
+    // Tham chiếu đến các Manager cần thiết
+    [SerializeField] private TileMapReadController tileReadController;
+    [SerializeField] private FarmingManager farmingManager;
+    [SerializeField] private QuickSlotManager quickSlotManager; 
+    [SerializeField] private ToolStateManager toolStateManager;  
 
-    [Header("Current Tool State")]
-    public ToolActionType currentTool = ToolActionType.None;
-
+    [Header("Interaction Settings")]
     public Vector2 facingDirection = new Vector2(0, -1);
+
+    private ToolActionType currentTool = ToolActionType.None;
 
     private void Start()
     {
         if (farmingManager == null)
             farmingManager = FarmingManager.Instance;
+
+        if (quickSlotManager == null)
+            quickSlotManager = QuickSlotManager.Instance;
+
+        if (toolStateManager == null)
+            toolStateManager = ToolStateManager.Instance;
     }
 
     void Update()
     {
-        HandleToolSelectionInput();
+
+        currentTool = quickSlotManager != null ? quickSlotManager.GetSelectedToolData().actionType : ToolActionType.None;
 
         Vector3 interactionWorldPos = transform.position + (Vector3)facingDirection.normalized * 1.0f;
         Vector3Int targetGridPos = tileReadController.GetGridPosition(interactionWorldPos, false);
 
         if (Input.GetMouseButtonDown(0))
         {
-            PerformAction(targetGridPos, currentTool);
+            ToolData currentToolData = quickSlotManager.GetSelectedToolData();
+
+            if (currentToolData == null) return;
+
+            PerformAction(targetGridPos, currentToolData); 
         }
     }
 
-    private void HandleToolSelectionInput()
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) { SetTool(ToolActionType.Plow); }  
-        else if (Input.GetKeyDown(KeyCode.Alpha2)) { SetTool(ToolActionType.Harvest); } 
-        else if (Input.GetKeyDown(KeyCode.Alpha3)) { SetTool(ToolActionType.Seed); } 
-        else if (Input.GetKeyDown(KeyCode.Alpha4)) { SetTool(ToolActionType.Water); }  
-    }
+    // --- TOOL SELECTION  ---
+
 
     public void SetTool(ToolActionType tool)
     {
-        currentTool = tool;
+        // currentTool = tool; // Đây là cách làm cũ
         Debug.Log($"Tool selected: {tool.ToString()}");
+        // QuickSlotManager.Instance.SetToolByIndex(index);
     }
 
 
-    private void PerformAction(Vector3Int pos, ToolActionType tool)
+    public void PerformAction(Vector3Int pos, ToolData toolData)
     {
+        ToolActionType tool = toolData.actionType;
+
         if (tool == ToolActionType.None) return;
 
         switch (tool)
@@ -53,15 +66,42 @@ public class PlayerInteraction : MonoBehaviour
             case ToolActionType.Plow:
                 farmingManager.PlowTile(pos);
                 break;
+
             case ToolActionType.Water:
-                farmingManager.WaterTile(pos);
+                if (toolStateManager.GetToolState(toolData).currentUses > 0)
+                {
+                    if (farmingManager.WaterTile(pos))
+                    {
+                        toolStateManager.UseToolCharge(toolData);
+                    }
+                }
+                else
+                {
+                    Debug.Log("Water can is empty! Needs refill.");
+                }
                 break;
+
+            case ToolActionType.Refill:
+                farmingManager.RefillWater(pos, toolData);
+                break;
+
             case ToolActionType.Harvest:
-                
-                break;
             case ToolActionType.Seed:
-                
+
+                if (farmingManager.IsCropPlanted(pos))
+                {
+                    farmingManager.HarvestTile(pos);
+                }
+                else if (farmingManager.IsGroundPlowed(pos))
+                {
+                    SeedSelectionUI.Instance.OpenSelectionUI(pos);
+                }
                 break;
+
+            case ToolActionType.Interact:
+                Debug.Log("Interacting with world object.");
+                break;
+
             default:
                 break;
         }

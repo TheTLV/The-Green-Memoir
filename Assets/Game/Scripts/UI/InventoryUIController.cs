@@ -1,18 +1,18 @@
 using UnityEngine;
-using TMPro;
-using UnityEngine.UI;
 using System.Collections.Generic;
-using System;
+using System.Linq;
+using UnityEngine.UI;
+using TMPro;
 
 public class InventoryUIController : MonoBehaviour
 {
-    // Static reference for easy access to open/close
     public static InventoryUIController Instance;
 
-    [Header("UI References")]
-    [SerializeField] private GameObject inventoryPanel; // The main parent panel
-    [SerializeField] private Transform contentContainer; // Parent for all slot UIs (has Vertical Layout Group)
-    [SerializeField] private GameObject itemSlotPrefab; // Prefab for an item row
+    [Header("References")]
+    [SerializeField] private InventoryManager inventoryManager;
+    [SerializeField] private GameObject inventoryPanel;
+    [SerializeField] private Transform contentContainer;
+    [SerializeField] private GameObject inventorySlotPrefab;
 
     [Header("Context Menu References")]
     [SerializeField] private GameObject contextMenuPanel;
@@ -20,10 +20,8 @@ public class InventoryUIController : MonoBehaviour
     [SerializeField] private Button dropButton;
     [SerializeField] private TextMeshProUGUI descriptionText;
 
-    private List<GameObject> activeSlotUIs = new List<GameObject>();
-    private ItemData selectedItemData; // The item currently selected/clicked
-
-    // --- INITIALIZATION ---
+    private List<InventorySlotUI> inventorySlots = new List<InventorySlotUI>();
+    private ItemData selectedItemData;
 
     private void Awake()
     {
@@ -32,87 +30,85 @@ public class InventoryUIController : MonoBehaviour
         else
             Destroy(gameObject);
 
-        // Hide UI on start
         inventoryPanel.SetActive(false);
     }
 
     private void Start()
     {
-        // 1. Subscribe to Inventory Changes
-        InventoryManager.Instance.OnInventoryChanged += RefreshInventoryDisplay;
+        if (inventoryManager == null)
+            inventoryManager = InventoryManager.Instance;
 
-        // 2. Set up context menu button listeners
-        useButton.onClick.AddListener(() => OnUseClicked());
-        dropButton.onClick.AddListener(() => OnDropClicked());
+        inventoryManager.OnInventoryChanged += UpdateInventoryUI;
+
+
+        useButton.onClick.AddListener(OnUseClicked);
+        dropButton.onClick.AddListener(OnDropClicked);
+
+
+        InitializeInventoryUI(30);
     }
 
     private void OnDestroy()
     {
-        // Unsubscribe to prevent errors when scene closes
-        if (InventoryManager.Instance != null)
+        if (inventoryManager != null)
         {
-            InventoryManager.Instance.OnInventoryChanged -= RefreshInventoryDisplay;
+            inventoryManager.OnInventoryChanged -= UpdateInventoryUI;
+        }
+    }
+
+    private void InitializeInventoryUI(int numberOfSlots)
+    {
+        foreach (Transform child in contentContainer)
+        {
+            Destroy(child.gameObject);
+        }
+        inventorySlots.Clear();
+
+        for (int i = 0; i < numberOfSlots; i++)
+        {
+            GameObject slotGO = Instantiate(inventorySlotPrefab, contentContainer);
+            InventorySlotUI slotUI = slotGO.GetComponent<InventorySlotUI>();
+            inventorySlots.Add(slotUI);
+
+            Button button = slotGO.GetComponent<Button>();
+            if (button != null)
+            {
+                int index = i;
+                button.onClick.AddListener(() => OnSlotClicked(inventorySlots[index].currentItemData));
+            }
+        }
+    }
+
+    public void UpdateInventoryUI()
+    {
+        List<InventorySlot> items = inventoryManager.GetInventorySlots();
+
+        for (int i = 0; i < inventorySlots.Count; i++)
+        {
+            if (i < items.Count)
+            {
+                inventorySlots[i].UpdateSlot(items[i].item, items[i].quantity);
+            }
+            else
+            {
+                inventorySlots[i].ClearSlot();
+            }
         }
     }
 
     // --- MAIN UI CONTROL ---
 
-    public void ToggleInventory()
+    public void ToggleInventoryUI()
     {
         inventoryPanel.SetActive(!inventoryPanel.activeSelf);
         if (inventoryPanel.activeSelf)
         {
-            RefreshInventoryDisplay();
+            UpdateInventoryUI();
         }
         else
         {
             HideContextMenu();
-            ClearDescription();
-        }
-    }
-
-    // --- REFRESH DISPLAY LOGIC ---
-
-    public void RefreshInventoryDisplay()
-    {
-        // 1. Clear old slots
-        foreach (var slotUI in activeSlotUIs)
-        {
-            Destroy(slotUI);
-        }
-        activeSlotUIs.Clear();
-
-        // 2. Get current inventory data
-        List<InventorySlot> slots = InventoryManager.Instance.GetInventorySlots();
-
-        // 3. Instantiate new slots for each item
-        foreach (var slot in slots)
-        {
-            GameObject slotUI = Instantiate(itemSlotPrefab, contentContainer);
-
-            // Assume the prefab has a script/components to display data
-            // You would normally have a separate ItemSlotUI.cs script here to handle display
-
-            // For now, let's just update text components if you placed them directly:
-            TextMeshProUGUI nameText = slotUI.transform.Find("NameText").GetComponent<TextMeshProUGUI>();
-            TextMeshProUGUI quantityText = slotUI.transform.Find("QuantityText").GetComponent<TextMeshProUGUI>();
-            Image iconImage = slotUI.transform.Find("IconImage").GetComponent<Image>();
-
-            if (nameText != null) nameText.text = slot.item.itemName;
-            if (quantityText != null) quantityText.text = $"x{slot.quantity}";
-            if (iconImage != null) iconImage.sprite = slot.item.icon;
-
-            // Attach interaction listeners to the slot UI
-            Button button = slotUI.GetComponent<Button>();
-            if (button != null)
-            {
-                // Pass the ItemData to the click handler
-                button.onClick.AddListener(() => OnSlotClicked(slot.item));
-            }
-
-            // You would also add mouse hover listeners here for the description panel
-
-            activeSlotUIs.Add(slotUI);
+            descriptionText.text = "";
         }
     }
 
@@ -120,9 +116,15 @@ public class InventoryUIController : MonoBehaviour
 
     public void OnSlotClicked(ItemData item)
     {
+        if (item == null)
+        {
+            HideContextMenu();
+            return;
+        }
+
         selectedItemData = item;
         ShowContextMenu(item);
-        ShowDescription(item);
+        descriptionText.text = item.description;
     }
 
     public void OnUseClicked()
@@ -131,7 +133,6 @@ public class InventoryUIController : MonoBehaviour
 
         if (InventoryManager.Instance.CanPerformAction(selectedItemData, "Use"))
         {
-            // TODO: Add actual 'Use' logic (e.g., consume item, apply effect)
             InventoryManager.Instance.RemoveItem(selectedItemData, 1);
             Debug.Log($"Used item: {selectedItemData.itemName}");
         }
@@ -144,21 +145,18 @@ public class InventoryUIController : MonoBehaviour
 
         if (InventoryManager.Instance.CanPerformAction(selectedItemData, "Drop"))
         {
-            // TODO: Add logic to spawn the item prefab in the world
             InventoryManager.Instance.RemoveItem(selectedItemData, 1);
             Debug.Log($"Dropped item: {selectedItemData.itemName}");
         }
         HideContextMenu();
     }
 
-    // --- CONTEXT MENU & DESCRIPTION VISUALS ---
+    // --- CONTEXT MENU VISUALS ---
 
     private void ShowContextMenu(ItemData item)
     {
         contextMenuPanel.SetActive(true);
-        // Position the context menu next to the clicked slot (TODO: Implement proper positioning)
 
-        // Disable/Enable buttons based on restrictions
         useButton.gameObject.SetActive(InventoryManager.Instance.CanPerformAction(item, "Use"));
         dropButton.gameObject.SetActive(InventoryManager.Instance.CanPerformAction(item, "Drop"));
     }
@@ -167,16 +165,5 @@ public class InventoryUIController : MonoBehaviour
     {
         contextMenuPanel.SetActive(false);
         selectedItemData = null;
-    }
-
-    private void ShowDescription(ItemData item)
-    {
-        descriptionText.text = item.description;
-        // TO DO: Make description panel visible/slide in
-    }
-
-    private void ClearDescription()
-    {
-        descriptionText.text = "";
     }
 }
