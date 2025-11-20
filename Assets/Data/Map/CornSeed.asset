@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f472e7f5a6d7d1040a04c59b9acc2312, type: 3}
+  m_Name: CornSeed
+  m_EditorClassIdentifier: Assembly-CSharp::SeedData
+  cropName: CornSeed
+  daysToGrow: 2
+  harvestYield: 1
+  harvestItem: {fileID: 11400000, guid: a1d814f4d9b129c419bbb3447d1524eb, type: 2}
+  daysToWilt: 2
+  dryGrowthTiles:
+  - {fileID: 11400000, guid: 7b659ba83f008864db3d1244bcee7262, type: 2}
+  - {fileID: 11400000, guid: 032300ceedf21474b93bdcb19122857f, type: 2}
+  - {fileID: 11400000, guid: 88e19bb092af9e14eb084251178edf49, type: 2}
+  - {fileID: 11400000, guid: 2cc6b8fe0d602c4479bd01f480c97a8f, type: 2}
+  wetGrowthTiles:
+  - {fileID: 0}
+  witheredTile: {fileID: 0}

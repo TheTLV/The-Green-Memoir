@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286afbd2728bbe04db3d78066af2f7aa, type: 3}
+  m_Name: Nomal
+  m_EditorClassIdentifier: Assembly-CSharp::TheGreenMemoir.Unity.Data.TileStateSO
+  stateId: Nomal
+  displayName: NomalDirt
+  stateType: 0
+  allowCropGrowth: 0
+  canPlow: 1
+  canPlant: 0
+  canWater: 0
+  canHarvest: 0
+  nextValidStates:
+  - {fileID: 11400000, guid: b10cdc3d9ce229c42be461d7cf5704d2, type: 2}
+  sprite: {fileID: 750607305, guid: 6de546966711b7449818e3c0489a3d06, type: 3}
+  tileBase: {fileID: 0}
+  displayColor: {r: 1, g: 1, b: 1, a: 1}

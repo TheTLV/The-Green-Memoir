@@ -1,0 +1,2628 @@
+fileFormatVersion: 2
+guid: 6bc7447a677213242bd2edc2b405a620
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7866701564432070924
+    second: Hero-Tool1_0
+  - first:
+      213: -6560709467670965966
+    second: Hero-Tool1_1
+  - first:
+      213: -1407463736824814626
+    second: Hero-Tool1_2
+  - first:
+      213: -1720783396635729994
+    second: Hero-Tool1_3
+  - first:
+      213: -2217164104057473271
+    second: Hero-Tool1_4
+  - first:
+      213: 6792756288720966547
+    second: Hero-Tool1_5
+  - first:
+      213: 1187132820714848794
+    second: Hero-Tool1_6
+  - first:
+      213: -3244520198224369814
+    second: Hero-Tool1_7
+  - first:
+      213: 3733803379572280391
+    second: Hero-Tool1_8
+  - first:
+      213: 8980067598934387779
+    second: Hero-Tool1_9
+  - first:
+      213: -8635433270498265798
+    second: Hero-Tool1_10
+  - first:
+      213: 2685740758055672204
+    second: Hero-Tool1_11
+  - first:
+      213: -8118682032384299989
+    second: Hero-Tool1_12
+  - first:
+      213: -5471958429357113248
+    second: Hero-Tool1_13
+  - first:
+      213: -7218446254912690716
+    second: Hero-Tool1_14
+  - first:
+      213: -1105978643833486963
+    second: Hero-Tool1_15
+  - first:
+      213: -5191183913849374979
+    second: Hero-Tool1_16
+  - first:
+      213: 7192470826590952337
+    second: Hero-Tool1_17
+  - first:
+      213: 1190375208715932859
+    second: Hero-Tool1_18
+  - first:
+      213: -4799452977803755014
+    second: Hero-Tool1_19
+  - first:
+      213: -6393020212673932444
+    second: Hero-Tool1_20
+  - first:
+      213: 1247770330389629298
+    second: Hero-Tool1_21
+  - first:
+      213: 6437870049884620539
+    second: Hero-Tool1_22
+  - first:
+      213: -1686324069547766071
+    second: Hero-Tool1_23
+  - first:
+      213: -2562501556733919698
+    second: Hero-Tool1_24
+  - first:
+      213: -2529647355591675938
+    second: Hero-Tool1_25
+  - first:
+      213: -148155032337829320
+    second: Hero-Tool1_26
+  - first:
+      213: 3706031056646138895
+    second: Hero-Tool1_27
+  - first:
+      213: 845387760220049895
+    second: Hero-Tool1_28
+  - first:
+      213: 1711845186376723947
+    second: Hero-Tool1_29
+  - first:
+      213: -3199909512550846293
+    second: Hero-Tool1_30
+  - first:
+      213: -8198513098045839895
+    second: Hero-Tool1_31
+  - first:
+      213: -11183078462922978
+    second: Hero-Tool1_32
+  - first:
+      213: 5742180884748270695
+    second: Hero-Tool1_33
+  - first:
+      213: -8015788366440964541
+    second: Hero-Tool1_34
+  - first:
+      213: -3257610262742263748
+    second: Hero-Tool1_35
+  - first:
+      213: 3706549070445716208
+    second: Hero-Tool1_36
+  - first:
+      213: 715875752091479942
+    second: Hero-Tool1_37
+  - first:
+      213: 830948736161298022
+    second: Hero-Tool1_38
+  - first:
+      213: -5971301998258663803
+    second: Hero-Tool1_39
+  - first:
+      213: -5074340660712132687
+    second: Hero-Tool1_40
+  - first:
+      213: 8426974980199826718
+    second: Hero-Tool1_41
+  - first:
+      213: 2296981987509867389
+    second: Hero-Tool1_42
+  - first:
+      213: 7987566672464809611
+    second: Hero-Tool1_43
+  - first:
+      213: 1109250757229783126
+    second: Hero-Tool1_44
+  - first:
+      213: 1681613248435051621
+    second: Hero-Tool1_45
+  - first:
+      213: 6183377593845497563
+    second: Hero-Tool1_46
+  - first:
+      213: -6595731157133208353
+    second: Hero-Tool1_47
+  - first:
+      213: 372003572419101169
+    second: Hero-Tool1_48
+  - first:
+      213: 1204372305524811632
+    second: Hero-Tool1_49
+  - first:
+      213: 6113327325891231564
+    second: Hero-Tool1_50
+  - first:
+      213: 7093157381237822690
+    second: Hero-Tool1_51
+  - first:
+      213: 2659795165993655139
+    second: Hero-Tool1_52
+  - first:
+      213: -7878370909131795466
+    second: Hero-Tool1_53
+  - first:
+      213: -4881217469042200210
+    second: Hero-Tool1_54
+  - first:
+      213: 6048185472008336645
+    second: Hero-Tool1_55
+  - first:
+      213: 976839762256871335
+    second: Hero-Tool1_56
+  - first:
+      213: 6113699351388729089
+    second: Hero-Tool1_57
+  - first:
+      213: 5742606107949254975
+    second: Hero-Tool1_58
+  - first:
+      213: 7624098727820495463
+    second: Hero-Tool1_59
+  - first:
+      213: 1685674435628505713
+    second: Hero-Tool1_60
+  - first:
+      213: -6845536413137596444
+    second: Hero-Tool1_61
+  - first:
+      213: 5771137374486081396
+    second: Hero-Tool1_62
+  - first:
+      213: 4536785437365399968
+    second: Hero-Tool1_63
+  - first:
+      213: -2863386032080824478
+    second: Hero-Tool1_64
+  - first:
+      213: -8090928076536679468
+    second: Hero-Tool1_65
+  - first:
+      213: -6943592103942086614
+    second: Hero-Tool1_66
+  - first:
+      213: 2245287783339238877
+    second: Hero-Tool1_67
+  - first:
+      213: -3837374632166351502
+    second: Hero-Tool1_68
+  - first:
+      213: -7107281465097422543
+    second: Hero-Tool1_69
+  - first:
+      213: 4889863108654143851
+    second: Hero-Tool1_70
+  - first:
+      213: -427079097197823937
+    second: Hero-Tool1_71
+  - first:
+      213: -4391681325016163
+    second: Hero-Tool1_72
+  - first:
+      213: -3584019944817658414
+    second: Hero-Tool1_73
+  - first:
+      213: 4122903199574147016
+    second: Hero-Tool1_74
+  - first:
+      213: -5282751636998814659
+    second: Hero-Tool1_75
+  - first:
+      213: 1492929072406673399
+    second: Hero-Tool1_76
+  - first:
+      213: 6202469958461236573
+    second: Hero-Tool1_77
+  - first:
+      213: -3178559418011193952
+    second: Hero-Tool1_78
+  - first:
+      213: 2258133334516929132
+    second: Hero-Tool1_79
+  - first:
+      213: 8090661934214863645
+    second: Hero-Tool1_80
+  - first:
+      213: -1672701317293680833
+    second: Hero-Tool1_81
+  - first:
+      213: 9156236556904109602
+    second: Hero-Tool1_82
+  - first:
+      213: -1504704041591900678
+    second: Hero-Tool1_83
+  - first:
+      213: 7970784907456184629
+    second: Hero-Tool1_84
+  - first:
+      213: 1052249011007182392
+    second: Hero-Tool1_85
+  - first:
+      213: 2808952759199679780
+    second: Hero-Tool1_86
+  - first:
+      213: -4775119594811529678
+    second: Hero-Tool1_87
+  - first:
+      213: 3343783199872433358
+    second: Hero-Tool1_88
+  - first:
+      213: 6229076500559873427
+    second: Hero-Tool1_89
+  - first:
+      213: -8473746903913129783
+    second: Hero-Tool1_90
+  - first:
+      213: -1914989500921785138
+    second: Hero-Tool1_91
+  - first:
+      213: 3626956340412410235
+    second: Hero-Tool1_92
+  - first:
+      213: -514425078588531483
+    second: Hero-Tool1_93
+  - first:
+      213: 5255695951897760037
+    second: Hero-Tool1_94
+  - first:
+      213: -6953841628128874593
+    second: Hero-Tool1_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hero-Hue_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1023
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b3475eca3f10b4c967bebc9a9caa1b
+      internalID: -811225277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1023
+        width: 31
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3003fa92bdbd164897ba2bc8d1076d4
+      internalID: -2146092397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_2
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1023
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf1538ad9ba9ab4585b9bda357206b3
+      internalID: -94802258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_3
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1007
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ab80ffbb9ee1644b0e86473071b8c7
+      internalID: -1393243539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_4
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1007
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86b934b3ea8aa8469f74ba333ca06bf
+      internalID: -1160394799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_5
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1007
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e7cd72c70552b4783de5cde99c6723
+      internalID: 1014478497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_6
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1007
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05f5b8b4fe4b0d49903bb8b4ea94905
+      internalID: -45361084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_7
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1007
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3eb989307344dc4b889e480e38a7f11
+      internalID: -2068757339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_8
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1007
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae657cc3c8abf4445b4b0c6a08c9823a
+      internalID: -1213437241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_9
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 1007
+        width: 30
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61c8c45e98583a4f93500e7627926c3
+      internalID: 198590353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1007
+        width: 31
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece5816020dfa024f8034e52907bd3c0
+      internalID: -774056986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_11
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1007
+        width: 30
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d565db6302a27314dbdd2999f5035a82
+      internalID: 1845847367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 879
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e714e481e4eacbd41a9230ac9f1ac2cd
+      internalID: 1478282988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_13
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 879
+        width: 31
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df91c441ea8565943aaf92214004ac4c
+      internalID: -1765366132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_14
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 879
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d36b540d9fc5f4a8cf36476ced5265
+      internalID: -2051835463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_15
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 863
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272c2ddbddd71d64e9336c46cb09e19a
+      internalID: -383591539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_16
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 863
+        width: 33
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb153d92cde32484c8018333ebfa28c0
+      internalID: 1497684760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_17
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 863
+        width: 33
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1357d7c9c3bf26c43876e4d6505291d7
+      internalID: 126634355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_18
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 863
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a411e2fed1a912d40b773a1574c8d109
+      internalID: 1082154688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_19
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 863
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3849fa1849fddd44aa4d846cd0645e8c
+      internalID: -961831532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_20
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 863
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b696bbcb2129c114cb784c87a36ef900
+      internalID: -746444773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_21
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 863
+        width: 31
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a0ca0fbd9005845b9787d842c3643b
+      internalID: -104660260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_22
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 863
+        width: 32
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef993bd6530e4a54f915d2660b9ba6d4
+      internalID: 501209400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_23
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 863
+        width: 31
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36c4630d6a57ee44a6c5934607af5de
+      internalID: -1846169677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 719
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778333be194b31645a5a0175d9b5ef53
+      internalID: 477486998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_25
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 719
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640fe941aad6d5b4ab2788ae507606cb
+      internalID: 1988632467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_26
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 719
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a90d23220fbb7b419cc1813c864f1c4
+      internalID: 230411407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_27
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 719
+        width: 31
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6a97b859f22fc429c6601f331c9fe8
+      internalID: -1747190094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_28
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 719
+        width: 33
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c64c6468b70e2e43a7fe664af06ffa3
+      internalID: -725891585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_29
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 719
+        width: 33
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd0d526e4404dc448bb900ef4372ef4
+      internalID: -1067535655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_30
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 719
+        width: 32
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70941594ebd9c9749a8fb7273e2c80c9
+      internalID: -1010458485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_31
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 719
+        width: 33
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822082a7c2ea6f044912c586086aaab5
+      internalID: -397590080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_32
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 719
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7ac283449dd83429fafaf4d220f2d2
+      internalID: -1239973462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_33
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 719
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde7bef7e0162344a99ed992750d7e88
+      internalID: -1164740848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_34
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 719
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d58126cbd24044ab81559ef1991366
+      internalID: -1914560240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_35
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 719
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114705c1c11ecef44be4732832b2fa28
+      internalID: -998110330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 580
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba78c597aeb92494181aa53ce274151f
+      internalID: 1638958638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_37
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 580
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4871e34abc544c49bc239a88b1a5e07
+      internalID: 1112895124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_38
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 580
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ff35fdcdc1a5c48a1b80fd5a11a8a3
+      internalID: -1673108582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_39
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 575
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89970419f5194b4d8a9efb17f5f9892
+      internalID: -112839427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_40
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 575
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f564a1d98771fe047abe5e9ee273b314
+      internalID: 138562630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_41
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 575
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0497475a5b069894d8c4b3258e517e1e
+      internalID: -660760924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_42
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 575
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b64370f8e4d904caaefa5e3dd1c237
+      internalID: -1656424365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_43
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 575
+        width: 33
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9185bd944d3df73499b8f5312d848e9d
+      internalID: 1276501798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_44
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 575
+        width: 31
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506d91d483c0e15499531c256bff8847
+      internalID: -1480302022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_45
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 575
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e192db80478443d42b959a5256b78961
+      internalID: -419911427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_46
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 575
+        width: 31
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb3296d8b5bcb14395492fbce3923a0
+      internalID: -627093347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_47
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 575
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a8b65b627fd7e4d8d3f13b5ae35689
+      internalID: -2101890393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 431
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcbf8151389b9e4db12ac1bedc6a504
+      internalID: 1352894479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 431
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31640b629032bc49a04ba986d98cc5a
+      internalID: 1316930485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_50
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 431
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e177c09d012fa640b224280ac02a604
+      internalID: 1920733760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_51
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 431
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e53a60ccefc03640b597ac37b087d52
+      internalID: -397286616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_52
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 431
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f903704c6744745836150548477182
+      internalID: -1540422433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_53
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 431
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c73f1f3de654ee438abdfb08b4271ce
+      internalID: -702785670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_54
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 431
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d1a734292c5364ca597608d5d21065
+      internalID: 1786385266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_55
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 431
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcb532661819aa449679dd1c19f75a0
+      internalID: 848314837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_56
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 431
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110c7cbb824342145bf5524446f4c699
+      internalID: 1764162704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_57
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 431
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985b093ef43efd345816e4cf3c9e7fce
+      internalID: -1590128824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_58
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 431
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365a9372df36da44eab2925c007382c8
+      internalID: 169685484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_59
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 431
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8eddaea4856064685947783b1d8d7c
+      internalID: -498356976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_60
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 287
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c518da4f8672fb04faf1ad2e4f0363ae
+      internalID: 1839780331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_61
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 287
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409c3f27f1a162b4ba1162d4936d9605
+      internalID: 292370957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 287
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fea5cb12bf65b045a70bf23c141f6c6
+      internalID: -1757713849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_63
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 287
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028f3625706e41b48923c83bad72e1a0
+      internalID: -583785635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_64
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 287
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c198e743b6a6b48b535f2ab60769c5
+      internalID: -1361053047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_65
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 287
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188e37ea194192c42af7bd31eb6747ca
+      internalID: 456588360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_66
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 287
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5da786970ad28a499a58c73745d10c2
+      internalID: -1431717713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_67
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 287
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a51be6f57c33464aafa1148dd90d392
+      internalID: -863824798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_68
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 287
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed848c6f0f38a1246af9dd4de4d4efe1
+      internalID: -548307722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_69
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 287
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fe55a4320907448842093e21f56c4a
+      internalID: 860086223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_70
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 287
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0322f76a094b343b85ec6218fed18f
+      internalID: -219384538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_71
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 287
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ff9d2cecf7faf44b531cdc42670062
+      internalID: -1058794868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_72
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 143
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb9b04b01daddb4bb1f44667c7be6d3
+      internalID: 141813478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_73
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 143
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b35727db0cc43418bc83a3fe65af3f
+      internalID: 1764745803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_74
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 143
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c03a6b24530062468f296ae70e0c254
+      internalID: 392814185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_75
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 143
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f1e22e7545336499348435c0188548
+      internalID: -1522551219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_76
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 143
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc356275f90c40d48b1ef3741ba5a01a
+      internalID: 200669026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_77
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 143
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f613fe2673a090b4ab1295622b28fb7e
+      internalID: 1874019092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_78
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 143
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31bc95f6e1d1f1418858e20b1ab3139
+      internalID: 617525850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_79
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 143
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c48f372f1e003448935a19a655ce0f
+      internalID: 174478552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_80
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 143
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d9d21deb4b56f45aca466062c10c3d
+      internalID: 1842547648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_81
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 143
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee81e4c84ec9e6f4bbc8ec9a1e8d9b0b
+      internalID: 432640348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_82
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 143
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c84e73014ec9e4eaafbfd4f25534ee
+      internalID: 75534920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_83
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 143
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0df5dd8c56d16468a99833bf633545
+      internalID: -1653786968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_84
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a62ec60b0addb42930c43a35ab0bf3
+      internalID: 942775731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_85
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afae5e2e9b219f6478525f0c583c6741
+      internalID: 1266840685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_86
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 0
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eceb40207fc3ff6479ef15ff709f2f2a
+      internalID: -561480491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_87
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 0
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f80e234299d6e4eb035d909e8198cc
+      internalID: 633287776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_88
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 0
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499d12bb05b01a342ace36e57109ad97
+      internalID: 732246841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_89
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 0
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf3980e15d59b240aca28a4507e1975
+      internalID: 267009653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_90
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 0
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8106cd794848c478b902c5b19ad575
+      internalID: -1689734547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_91
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 0
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61669776c448c6e4c8a0c1545e823efd
+      internalID: -218030453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_92
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 0
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23963eaa50b2c94d955626ba6767223
+      internalID: -1195917781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_93
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 0
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31bd273bb2fa384bbe32181a4ce2cb7
+      internalID: -1862395760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_94
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 0
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d25c831f587cfe459e6dec80eabed81
+      internalID: -1947797004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero-Hue_95
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 0
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac86f0550567d14786efe8d45b11d8e
+      internalID: -311239418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 72b15286c1d49f5439c468e5ca519165
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Hero-Hue_0: -811225277
+      Hero-Hue_1: -2146092397
+      Hero-Hue_10: -774056986
+      Hero-Hue_11: 1845847367
+      Hero-Hue_12: 1478282988
+      Hero-Hue_13: -1765366132
+      Hero-Hue_14: -2051835463
+      Hero-Hue_15: -383591539
+      Hero-Hue_16: 1497684760
+      Hero-Hue_17: 126634355
+      Hero-Hue_18: 1082154688
+      Hero-Hue_19: -961831532
+      Hero-Hue_2: -94802258
+      Hero-Hue_20: -746444773
+      Hero-Hue_21: -104660260
+      Hero-Hue_22: 501209400
+      Hero-Hue_23: -1846169677
+      Hero-Hue_24: 477486998
+      Hero-Hue_25: 1988632467
+      Hero-Hue_26: 230411407
+      Hero-Hue_27: -1747190094
+      Hero-Hue_28: -725891585
+      Hero-Hue_29: -1067535655
+      Hero-Hue_3: -1393243539
+      Hero-Hue_30: -1010458485
+      Hero-Hue_31: -397590080
+      Hero-Hue_32: -1239973462
+      Hero-Hue_33: -1164740848
+      Hero-Hue_34: -1914560240
+      Hero-Hue_35: -998110330
+      Hero-Hue_36: 1638958638
+      Hero-Hue_37: 1112895124
+      Hero-Hue_38: -1673108582
+      Hero-Hue_39: -112839427
+      Hero-Hue_4: -1160394799
+      Hero-Hue_40: 138562630
+      Hero-Hue_41: -660760924
+      Hero-Hue_42: -1656424365
+      Hero-Hue_43: 1276501798
+      Hero-Hue_44: -1480302022
+      Hero-Hue_45: -419911427
+      Hero-Hue_46: -627093347
+      Hero-Hue_47: -2101890393
+      Hero-Hue_48: 1352894479
+      Hero-Hue_49: 1316930485
+      Hero-Hue_5: 1014478497
+      Hero-Hue_50: 1920733760
+      Hero-Hue_51: -397286616
+      Hero-Hue_52: -1540422433
+      Hero-Hue_53: -702785670
+      Hero-Hue_54: 1786385266
+      Hero-Hue_55: 848314837
+      Hero-Hue_56: 1764162704
+      Hero-Hue_57: -1590128824
+      Hero-Hue_58: 169685484
+      Hero-Hue_59: -498356976
+      Hero-Hue_6: -45361084
+      Hero-Hue_60: 1839780331
+      Hero-Hue_61: 292370957
+      Hero-Hue_62: -1757713849
+      Hero-Hue_63: -583785635
+      Hero-Hue_64: -1361053047
+      Hero-Hue_65: 456588360
+      Hero-Hue_66: -1431717713
+      Hero-Hue_67: -863824798
+      Hero-Hue_68: -548307722
+      Hero-Hue_69: 860086223
+      Hero-Hue_7: -2068757339
+      Hero-Hue_70: -219384538
+      Hero-Hue_71: -1058794868
+      Hero-Hue_72: 141813478
+      Hero-Hue_73: 1764745803
+      Hero-Hue_74: 392814185
+      Hero-Hue_75: -1522551219
+      Hero-Hue_76: 200669026
+      Hero-Hue_77: 1874019092
+      Hero-Hue_78: 617525850
+      Hero-Hue_79: 174478552
+      Hero-Hue_8: -1213437241
+      Hero-Hue_80: 1842547648
+      Hero-Hue_81: 432640348
+      Hero-Hue_82: 75534920
+      Hero-Hue_83: -1653786968
+      Hero-Hue_84: 942775731
+      Hero-Hue_85: 1266840685
+      Hero-Hue_86: -561480491
+      Hero-Hue_87: 633287776
+      Hero-Hue_88: 732246841
+      Hero-Hue_89: 267009653
+      Hero-Hue_9: 198590353
+      Hero-Hue_90: -1689734547
+      Hero-Hue_91: -218030453
+      Hero-Hue_92: -1195917781
+      Hero-Hue_93: -1862395760
+      Hero-Hue_94: -1947797004
+      Hero-Hue_95: -311239418
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
